@@ -1,0 +1,272 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: Cursive, Brush Script, sans-serif;
+
+
+		}
+		html,body{
+			height: 100%;
+			overflow: hidden;
+		}
+		header{
+			position: fixed;
+			top: 0px;
+			width: 	100%;
+			display: grid;
+			height: 43px;
+			grid-template-columns: repeat(2,1fr);
+			background-color: white;
+			border-bottom:2px solid #61fcae;
+			padding: 10px;
+			z-index: 1;
+			grid-template-rows: repeat(2,auto);
+		}
+		.options{
+			font-size: 32px;padding-left: 20px;
+			color: #61fcae;
+		}
+		.emplacement_logo{
+			position: absolute;right: 70px;top:0px;
+		}
+		.logo{
+			height: 55px;width:85px;
+		}
+		.icon-option{
+			cursor: pointer;
+		}
+		#option{
+			font-size: 22px;
+			width: 280px;
+			z-index:2;
+			text-align: center;
+
+		}
+		ul{
+			list-style-type: none;
+			border: 2px solid #61fcae;
+			border-radius: 8px;
+		}
+		li{
+			height: 40px;
+			cursor: pointer;
+			background-color: white;
+			color: #61fcae;
+			border-radius: 4px;
+		}
+		li:hover{
+			transition: 0.4s;
+			background-color: #61fcae;
+			color: white;
+		}
+
+
+
+		#body{
+			margin-top: 64px;
+			display: flex;
+			flex-direction: row;
+			height: 96%;
+		}
+		#barside{
+			border-right: 2px solid #61fcae;width: 20%;
+		}
+		.user{
+
+			padding-left: 15%;padding-top: 15px;font-size: 20px;
+		}
+		.photo_user{
+			font-size: 35px;
+		}
+		
+		#input_search{
+			border-radius:8px;background-color:#61fcae;border:none;height:35px;width: 85%;margin-left: 8%;margin-top: 15px;text-align: center;
+		}
+
+		.usermane_user{
+			position:relative;bottom: 15px;
+		}
+		.relation{
+			font-size: 15px;position: relative;right: 50px;top: 3px;
+		}
+		.user_other{
+			padding-top: 15px;padding-bottom: 5px; font-size: 18px;padding-left: 15%;
+		}
+		#exit{
+
+			position: relative;
+			left: 82%;
+			font-size: 25px;
+			top: 7px;
+		}
+		
+
+
+
+
+
+		#messages{
+			display: flex;
+			flex-direction: column;
+			width: 99%;
+		}
+		.message_sended{
+			width: 280px; min-height: 32px; background-color: #61fcae;border-radius: 8px;border-top-right-radius: 0px;position: relative;left: 27px;padding: 5px;
+		}
+		.message_received{
+			width: 280px; min-height: 32px; background-color: #61fcae;border-radius: 8px;border-top-left-radius: 0px;position: relative;left: 27px;padding: 5px;
+		}
+		.message1{
+			margin-left: 10px;margin-top: 10px;
+
+		}
+
+		.photo_user_message1{
+			font-size: 27px;padding-right: 10px;
+		}
+
+		.username_message1{
+			font-size:15px; position: relative;bottom: 12px;
+
+		}
+
+		.time_message1{
+			font-size: 13px;padding-left: 39px;
+		}
+
+		.message2{
+
+			margin-left: 10px;margin-top: 10px;float: right;margin-right: 50px;margin-left: 80%;
+
+		}
+		.photo_user_message2{
+
+			font-size: 27px;position: relative;left: 318px;
+		}
+
+		.username_message2{
+			font-size:15px; position: relative;bottom: 12px;left: 239px;
+		}
+		.time_message2{
+			font-size: 13px;padding-left: 276px;
+		}
+
+
+
+
+
+		#icon_send{
+			padding-left: 3%;font-size: 23px;color: #61fcae;
+		}
+		#send_messages{
+			position: fixed;padding-left: 50px;background-color: white;width: 80%;bottom: 6px;
+		}
+		#message_input{
+			height: 45px;width: 90%;border-radius: 8px;border:none;background-color: #61fcae;
+		}
+		@media (min-width: 651px) {
+			#exit{
+				display: none;
+			}
+
+		}
+
+
+		@media (max-width: 900px) {
+			#send_messages{
+				width: 70%;
+			}
+		}
+
+		@media (max-width: 650px) {
+			#barside{
+				width: 0%;
+				overflow: hidden;
+				background-color: white;
+				z-index: 2;
+				height: 100%;
+				position: fixed;
+			}
+			.emplacement_logo{
+
+				right: 20px;
+
+			}
+			#barside{
+				border-right: 2px solid #61fcae;width: 0%;
+			}
+			.options{
+				padding-left: 5px;
+			}
+			#body{
+				position: relative;
+				grid-template-columns: auto;
+				grid-template-rows: auto auto;
+
+			}
+			#send_messages{
+				bottom: 15px;
+				width: 83%;
+
+			}
+			#message_input{
+				width: 85%;}
+				#option{
+					font-size: 20px;
+					width: 240px;
+				}
+				#messages{
+					display: flex;
+					flex-direction: column;
+
+				}
+
+
+			}
+
+
+			@media (max-width: 360px) {
+				.message_received{
+					width: 55%;
+				}
+				.message_sended{
+					width: 55%;
+					left:46%;
+				}
+
+
+			}
+			@media (max-width: 300px) {
+
+				#message_input{
+					width: 79%;
+
+				}
+				#send_messages{
+					padding-left: 25px;
+				}
+			}
+
+			@media (max-width: 296px) {
+				.usermane_user{
+					bottom: 2px;
+				}
+				.relation{
+					top: 18px;
+				}
+				.user_other{
+					height: 85px;
+				}
+
+			}
+
+			@media (max-width: 200px) {
+
+				#message_input{
+					width: 70%;
+
+				}
+				#send_messages{
+					padding-left: 10px;
+				}
+			}

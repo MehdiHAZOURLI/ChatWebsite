@@ -1,0 +1,89 @@
+*{
+			margin: 0;
+			padding: 0;font-family: Cursive, Brush Script, sans-serif;
+
+		}
+		html,body{
+			height: 100%;
+		}
+		header{
+			position: fixed;
+			top: 0px;
+			width: 	100%;
+			display: grid;
+			height: 43px;
+			grid-template-columns: repeat(2,1fr);
+			background-color: white;
+			border-bottom:2px solid #61fcae;
+			padding: 10px;
+			z-index: 1;
+			grid-template-rows: repeat(2,auto);
+		}
+		.options{
+			font-size: 32px;padding-left: 20px;
+			color: #61fcae;
+		}
+		.emplacement_logo{
+			position: absolute;right: 70px;top:0px;
+		}
+		.logo{
+			height: 55px;width:85px;
+		}
+		.body{
+			margin-top: 100px;
+			display: grid;
+			grid-template-columns: 70% 30%;
+			grid-template-rows: 100%;
+			height: 87%;
+		}
+		.container{
+			padding: 10px;
+		}
+		p{
+			position: relative;
+			text-align: center;
+			top: 30%;
+		}
+		.button_connexion{
+			position: relative;
+			left: 20%;
+			top: 35%;
+			height: 50px ;
+			width:150px;
+			border:2px solid #61fcae;
+			border-radius: 8px;
+			color: #61fcae;
+			background-color: white;
+		}
+		.button_connexion:hover{
+			transition: 0.5s;
+			border:none;border-radius: 8px;color: white;background-color: #61fcae;
+		}
+
+		.footer{
+			height: 60px;border-top: 2px solid #61fcae ;  text-align: center;padding-top: 30px;position: relative;
+			
+		}
+
+		@media (max-width: 650px) {
+			.emplacement_logo{
+				right: 20px;}
+				.options{
+					padding-left: 5px;
+				}
+				.body{
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					height: auto;
+				}
+				.beside{
+					margin-left:auto;
+					margin-right: auto;	
+					margin-top: 30%;
+					margin-bottom: 40%;
+				} 
+				.button_connexion{
+					left: 0px;
+				}
+			}
