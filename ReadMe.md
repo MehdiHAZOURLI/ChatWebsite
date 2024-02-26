@@ -2,7 +2,7 @@
 
 A chat website project to send and receive message.
 
-![Project Logo](Ressources\Logo\logo.png)
+![Project Logo](https://github.com/MehdiHAZOURLI/ChatWebsite/blob/main/Ressources/Logo/logo.png)
 
 ## Project Status
 Active
@@ -12,11 +12,10 @@ Active
 - **PHP, MySQL**: Backend technologies for server-side development and database management.
 - **JavaScript**: Used for client-side interactivity.
 - **jQuery, AJAX**: JavaScript libraries and techniques for enhanced functionality and asynchronous requests.
-
 ## Photos
-![HomePage](https://github.com/HAZOURLIMohamedMehdi/ChatWebsite/Ressources/photos/photo1.png)
-![logiInPage](https://github.com/HAZOURLIMohamedMehdi/ChatWebsite/Ressources/photos/photo2.png)
-![chatPage](https://github.com/HAZOURLIMohamedMehdi/ChatWebsite/Ressources/photos/photo3.png)
+![HomePage](https://github.com/MehdiHAZOURLI/ChatWebsite/blob/main/Ressources/photos/photo1.png)
+![logiInPage](https://github.com/MehdiHAZOURLI/ChatWebsite/blob/main/Ressources/photos/photo2.png)
+![chatPage](https://github.com/MehdiHAZOURLI/ChatWebsite/blob/main/Ressources/photos/photo3.png)
 
 ## Note
 
