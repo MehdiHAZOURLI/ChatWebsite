@@ -66,7 +66,7 @@ if(document.getElementById("password").value!==document.getElementById("confirma
 success=false;
 }
 
-if(true){
+if(success){
 var http =new XMLHttpRequest();
 http.onload=function(){
 
